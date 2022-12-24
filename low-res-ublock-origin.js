@@ -2,7 +2,7 @@ twitch-videoad.js application/javascript
 (function() {
     if ( /(^|\.)twitch\.tv$/.test(document.location.hostname) === false ) { return; }
     function hookFetch() {
-        var OPT_ACCESS_TOKEN_PLAYER_TYPE = 'thunderdome';//480p
+        var OPT_ACCESS_TOKEN_PLAYER_TYPE = 'pop_tart';//???
         //var OPT_ACCESS_TOKEN_PLAYER_TYPE = 'picture-by-picture';//360p
         var realFetch = window.fetch;
         window.fetch = function(url, init, ...args) {
